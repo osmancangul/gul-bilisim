@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13%;
+}
+
+.header .baslik a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 180px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 30px;
+    margin-left: 150px;
+    font-size: 18px;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    transition:  .25s ease-in-out;
+}
+
+.header ul li a:hover {
+    color: rgb(204, 24, 24);
+}
+
+.header > .iletisim  {
+    border: 2px solid rgb(204, 24, 24);
+    margin-right: 240px;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    transition: .25s ease-in-out;
+}
+.header > .iletisim a  {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.header > .iletisim:hover {
+    background-color: rgb(204, 24, 24);
+}
+
+
+.content {
+    width: 77%;
+    margin: auto; 
+}
+
+.content h1 {
+    font-size: 80px;
+    font-weight: 1100;
+    color: white;
+    margin-top: 120px;
+    color: rgb(204, 24, 24);
+}
+
+.content p {
+    color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.content > .iletisim2 {
+    border: 2px solid rgb(204, 24, 24);
+    margin-right: 240px;
+    width: 200px;
+    text-align: center;
+    height: 63px;
+    transition: .25s ease-in-out;
+}
+
+.content > .iletisim2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+.hakkimizda-kismi {   
+    border: 2px solid rgba(255,255,255,0.06);
+    background-color: #111111;  
+    margin-top: 154px;
+    width: 100%;
+    height: 120vh;
+}
+
+.hakkimizda h1 {
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+
+.hakkimizda p {
+    color: gray;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-weight: 400;
+    word-spacing: 4px;
+}
+
+
+.hakkimizda-kismi img {
+    margin-top: -550px;
+    margin-left: 800px;
+    margin-bottom: 30px;
+    height: 700px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.musteri h1 {
+    margin-left: 300px;
+    margin-top: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.musteri p {
+    color: gray;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.yenilik h1 {
+    margin-left: 300px;
+    margin-top: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.yenilik p {
+    color: gray;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.nedenbiz-kismi {
+    width: 100%;
+    height: 130vh;
+    background-color: black;
+}
+
+.nedenbiz-kismi img {
+    margin-left: 300px;
+    margin-top: 115px;
+    border-radius: 5px;
+}
+
+.nedenbiz h1 {
+    color: white;
+    margin-top: -460px;
+    margin-left: 830px;
+    font-size: 40px;
+}
+
+.nedenbiz p {
+    color: gray;
+    margin-left: 830px;
+    margin-top: 25px;
+}
+
+.nedenbiz-kismi .yenilik2 h1 {
+    color: white;
+    margin-top: 50px;
+    margin-left: 900px;
+    font-size: 25px;
+}
+
+.nedenbiz-kismi .yenilik2 p {
+    color: gray;
+    margin-left: 900px;
+    margin-top: 20px;   
+}
+
+.nedenbiz-kismi .guven h1 {
+    color: white;
+    margin-top: 50px;
+    margin-left: 900px;
+    font-size: 25px;
+}
+
+.nedenbiz-kismi .guven p {
+    color: gray;
+    margin-left: 900px;
+    margin-top: 20px;   
+}
+
+
+.hizmetlerimiz {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(20, 19, 19);
+    display: inline-block;
+}
+
+.hizmetlerimiz h1 {
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+.hizmetlerimiz .box1  {
+    border: 1px solid  rgb(42, 40, 40);
+    border-radius: 3px;
+    width: 350px;
+    height: 250px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: rgb(42, 40, 40);
+}
+
+.hizmetlerimiz .box1 h1 {
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+.hizmetlerimiz .box1 p {
+    text-align: center; 
+    margin-top: 10px; 
+    color: gray;  
+    transition: .25s ease-in-out;    
+}
+
+.hizmetlerimiz .box1:hover {
+    background-color: rgb(167, 28, 28);
+}
+
+.hizmetlerimiz .box2 {
+    border: 1px solid  rgb(42, 40, 40);
+    border-radius: 3px;
+    width: 350px;
+    height: 250px;
+    margin-left: 590px;
+    margin-top: -250px;
+    background-color: rgb(42, 40, 40);
+}
+
+.hizmetlerimiz .box2 h1 {
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+.hizmetlerimiz .box2 p {
+    text-align: center; 
+    margin-top: 10px; 
+    color: gray;  
+    transition: .25s ease-in-out;    
+}
+
+.hizmetlerimiz .box2:hover {
+    background-color: rgb(167, 28, 28);
+}
+
+.hizmetlerimiz .box3 {
+    border: 1px solid  rgb(42, 40, 40);
+    border-radius: 3px;
+    width: 350px;
+    height: 250px;
+    margin-left: 980px;
+    margin-top: -250px;
+    background-color: rgb(42, 40, 40);
+}
+
+.hizmetlerimiz .box3 h1 {
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+.hizmetlerimiz .box3 p {
+    text-align: center; 
+    margin-top: 10px; 
+    color: gray;  
+    transition: .25s ease-in-out;    
+}
+
+.hizmetlerimiz .box3:hover {
+    background-color: rgb(167, 28, 28);
+}
+
+
+.hizmetlerimiz .box4 {
+    border: 1px solid  rgb(42, 40, 40);
+    border-radius: 3px;
+    width: 350px;
+    height: 250px;
+    margin-left: 400px;
+    margin-top: 40px;
+    background-color: rgb(42, 40, 40);
+}
+
+.hizmetlerimiz .box4 h1 {
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+.hizmetlerimiz .box4 p {
+    text-align: center; 
+    margin-top: 10px; 
+    color: gray;  
+    transition: .25s ease-in-out;    
+}
+
+.hizmetlerimiz .box4:hover {
+    background-color: rgb(167, 28, 28);
+}
+
+.hizmetlerimiz .box5 {
+    border: 1px solid  rgb(42, 40, 40);
+    border-radius: 3px;
+    width: 350px;
+    height: 250px;
+    margin-left: 780px;
+    margin-top: -250px;
+    background-color: rgb(42, 40, 40);
+}
+
+.hizmetlerimiz .box5 h1 {
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.hizmetlerimiz .box5 p {
+    text-align: center; 
+    margin-top: 10px; 
+    color: gray;  
+    transition: .25s ease-in-out;    
+}
+
+.hizmetlerimiz .box5:hover {
+    background-color: rgb(167, 28, 28);
+}
+
+.iletisim {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #111111;
+    display: inline-block;
+}
+
+.iletisim h1 {
+    text-align: center;
+    color:rgb(167, 28, 28) ;
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+.iletisim p {
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.iletisim .insta a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 600px;
+}
+
+.iletisim .twitter  {
+    margin-left: 700px;
+    margin-top: -28px;
+}
+
+.iletisim .twitter a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+
+.iletisim .linkedin {
+    margin-left: 800px;
+    margin-top: -25px;
+}
+
+.iletisim .linkedin a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+.iletisim .google {
+    margin-left: 900px;
+    margin-top: -25px;
+}
+
+.iletisim .google a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+
+}
+
+.iletisim .box6  {
+    width: 100%;
+    height: 60vh;
+    margin-right: 700px;  
+    margin-top: 100px;  
+    background-color: #1d1919;
+}
+
+.iletisim .box6 h1 {
+    text-align: left;
+    margin-left: 120px;
+    font-size: 22px;
+}
+
+.iletisim .box6 p {
+    text-align: left;  
+    margin-left: 120px;
+}
+
+.iletisim .box7 h1 {
+    text-align: left;
+    margin-left:650px;
+    font-size: 24px;
+    margin-top: -340px;
+}
+
+.iletisim .box7 ul {
+    margin-left: 650px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.iletisim .box7 ul li a {
+    text-decoration: none;
+    color: gray;
+    transition: .25s ease-in-out;
+}
+
+.iletisim .box7 ul li a:hover {
+    color: crimson;
+
+}
+
+
+.iletisim .box8 h1 {
+    text-align: left;
+    margin-left:1150px;
+    font-size: 24px;
+    margin-top: -210px;
+}
+
+.iletisim .box8 p {
+    text-align: left;
+    margin-left: 1150px;
+}
+
+.iletisim .box8 .insta {
+    margin-left: 550px;
+    margin-top: -60px;
+}
+
+.iletisim .box8 .twitter {
+    margin-left: 1210px;
+    margin-top: -27px;
+}
+
+.iletisim .box8 .linkedin {
+    margin-left: 1280px;
+    margin-top: -27px;
+}
+
+.iletisim .box8 .google {
+    margin-left: 1340px;
+    margin-top: -27px;
+} 
+
+.iletisim .box9 {
+    width: 100%;
+    height: 15vh;
+    margin-top: 80px;
+    background-color: #111111;
+    display: inline-block;
+}

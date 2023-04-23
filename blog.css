@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main {
+	width: 100%;
+	height: 150vh;
+	background-color: #191919;
+}
+
+.main .header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 13%;
+}
+
+.main .header .baslik a {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 22px;
+	margin-left: 180px;
+}
+
+
+.main .header .menu ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	column-gap: 30px;
+	margin-left: -35px;
+	font-size: 18px;
+}
+
+.main .header .menu ul li a {
+	text-decoration: none;
+	color: white;
+	transition: .25s ease-in-out;
+}
+
+.main .header .menu ul li a:hover {
+	color: rgb(204, 24, 24);
+}
+
+.main .header .iletisim {
+	border: 2px solid rgb(204, 24, 24);
+	margin-right: 275px;
+	width: 200px;
+	text-align: center;
+	height: 60px;
+	transition: .25s ease-in-out;
+}
+
+.main .header .iletisim a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.main .header .iletisim:hover {
+	background-color: rgb(204, 24, 24);
+}
+
+
+.main .header .iletisim h1 {
+	color: crimson;
+	margin-top: 140px;
+	margin-left: -800px;
+	font-size: 40px;
+
+}
+
+
+.main .header .iletisim .p1 {
+	color: gray;
+	margin-left: -940px;
+	margin-top: 30px;
+}
+
+.main .header .iletisim .p2 {
+	color: gray;
+	margin-left: -800px;
+	margin-top: -18px;
+}
+
+.main .header .iletisim .p3 {
+	color: crimson;
+	margin-top: -18px;
+	margin-left: -690px;
+}
+
+
+.main .header .iletisim .p4 {
+	margin-left: -810px;
+	margin-top: 40px;
+	color: gray;
+} 
+
+.main .content-blog .box1 {
+	border: 2px solid crimson;
+	width: 370px;
+	height: 300px;
+	margin-top: 300px;
+	margin-left: 7%;	
+}
+
+.main .content-blog .box2 {
+	border: 2px solid crimson;
+	width: 370px;
+	height: 300px;
+	margin-top: -300px;
+	margin-left: 36%;
+
+}
+
+.main .content-blog .box3 {
+	border: 2px solid crimson;
+	width: 370px;
+	height: 300px;
+	margin-top: -300px;
+	margin-left: 65%;
+}
+
+.main .content-blog .box4 {
+	border: 2px solid crimson;
+	width: 370px;
+	height: 300px;
+	margin-top:  25px;
+	margin-left: 20%;
+}
+
+.main .content-blog .box5 {
+	border: 2px solid crimson;
+	width: 370px;
+	height: 300px;
+	margin-top: -300px;
+	margin-left: 50%;
+}
+
+.main .content-blog .box1 h1  {
+	margin-left: 37px;
+	margin-top:  100px;
+	transition: .25s ease-in-out;
+}
+
+.main .content-blog .box1 h1 a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.main .content-blog .box1:hover {
+	background-color: crimson;
+}
+
+
+.main .content-blog .box2 h1 {
+	margin-left: 80px;
+	margin-top: 117px;
+	transition: .25s ease-in-out;
+}
+
+.main .content-blog .box2 h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.main .content-blog .box2:hover {
+	background-color: crimson;
+}
+
+
+.main .content-blog .box3 h1 {
+	margin-left: 105px;
+	margin-top: 117px;
+	transition: .25s ease-in-out;
+}
+
+.main .content-blog .box3 h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.main .content-blog .box3:hover {
+	background-color: crimson;
+}
+
+.main .content-blog .box4 h1 {
+	margin-left: 75px;
+	margin-top: 117px;
+	transition: .25s ease-in-out;
+}
+
+.main .content-blog .box4 h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.main .content-blog .box4:hover {
+	background-color: crimson;
+}
+
+.main .content-blog .box5 h1 {
+	margin-left: 75px;
+	margin-top: 110px;
+	transition: .25s ease-in-out;
+}
+
+.main .content-blog .box5 h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.main .content-blog .box5:hover {
+	background-color: crimson;
+}
+
+.main .content-haber-bulteni {
+	width: 100%;
+	height: 90vh;
+	margin-top: 17px;
+	background-color: #eeeeee;
+}
+
+.main .content-haber-bulteni h1 {
+	color: #2F323A;
+	margin-left: 630px;
+	margin-top: 120px;
+}
+
+
+.main .content-haber-bulteni p {
+	color: gray;
+	text-align: center;
+	margin-left: -70px;
+	margin-top: 30px;
+}
+
+.main .content-haber-bulteni form  {
+	border: 2px solid crimson;
+	margin-top: 50px;
+	width: 680px;
+	height: 80px;
+	margin-bottom: 20px;
+	margin-left: 395px;
+}
+
+
+.main .content-haber-bulteni .button {
+	border: 2px solid crimson;
+	width: 140px;
+	text-align: center;
+	height: 60px;
+	background-color: crimson;
+	margin-left: 900px;
+	margin-top: -90px;
+	transition: .25s ease-in-out;
+}
+
+.main .content-haber-bulteni .button a {
+	color: white;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+.main .content-haber-bulteni .button:hover {
+	background-color: #191919;
+}
+
+.main .content-haber-bulteni .button a:hover {
+	color: crimson;
+	
+}
+
+
+.footer {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #111111;
+    display: inline-block;
+}
+
+.footer h1 {
+    text-align: center;
+    color:rgb(167, 28, 28) ;
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+.footer p {
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer .insta a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 600px;
+}
+
+.footer .twitter  {
+    margin-left: 700px;
+    margin-top: -28px;
+}
+
+.footer .twitter a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+
+.footer .linkedin {
+    margin-left: 800px;
+    margin-top: -25px;
+}
+
+.footer .linkedin a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+.footer .google {
+    margin-left: 900px;
+    margin-top: -25px;
+}
+
+.footer .google a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+
+}
+
+.footer .box6  {
+    width: 100%;
+    height: 60vh;
+    margin-right: 700px;  
+    margin-top: 100px;  
+    background-color: #1d1919;
+}
+
+.footer .box6 h1 {
+    text-align: left;
+    margin-left: 120px;
+    font-size: 22px;
+}
+
+.footer .box6 p {
+    text-align: left;  
+    margin-left: 120px;
+}
+
+.footer .box7 h1 {
+    text-align: left;
+    margin-left:650px;
+    font-size: 24px;
+    margin-top: -340px;
+}
+
+.footer .box7 ul {
+    margin-left: 650px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.footer .box7 ul li a {
+    text-decoration: none;
+    color: gray;
+    transition: .25s ease-in-out;
+}
+
+.footer .box7 ul li a:hover {
+    color: crimson;
+
+}
+
+
+.footer .box8 h1 {
+    text-align: left;
+    margin-left:1150px;
+    font-size: 24px;
+    margin-top: -210px;
+}
+
+.footer .box8 p {
+    text-align: left;
+    margin-left: 1150px;
+}
+
+.footer .box8 .insta {
+    margin-left: 550px;
+    margin-top: -60px;
+    transition: .25s ease-in-out;
+}
+
+.footer .box8 .insta a:hover {
+	color: crimson;
+}
+
+.footer .box8 .twitter {
+    margin-left: 1210px;
+    margin-top: -27px;
+}
+
+.footer .box8 .twitter a:hover {
+	color: crimson;
+}
+
+.footer .box8 .linkedin {
+    margin-left: 1280px;
+    margin-top: -27px;
+}
+
+.footer .box8 .linkedin a:hover {
+	color: crimson;
+}
+
+.footer .box8 .google {
+    margin-left: 1340px;
+    margin-top: -27px;
+}
+
+.footer .box8 .google a:hover {
+	color: crimson;
+} 
+
+.footer .box9 {
+    width: 100%;
+    height: 15vh;
+    margin-top: 80px;
+    background-color: #111111;
+    display: inline-block;
+}
+
+

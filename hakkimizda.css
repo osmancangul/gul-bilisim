@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 22%;
+}
+
+.header .baslik a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 180px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 30px;
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    transition:  .25s ease-in-out
+}
+
+.header ul li a:hover {
+    color: rgb(204, 24, 24);
+}
+
+.header  .iletisim  {
+    border: 2px solid rgb(204, 24, 24);
+    margin-right: 255px;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    transition: .25s ease-in-out;
+}
+
+.header .iletisim a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.header .iletisim:hover {
+    background-color: rgb(204, 24, 24);
+}   
+
+.header .iletisim h1 {
+    color: crimson;
+    margin-top: 90px;
+    margin-left: -900px;
+    font-size: 40px;
+}
+
+.header .iletisim .p1 {
+    color: gray;
+    margin-left: -1100px;
+    margin-top: 30px;
+}
+
+.header .iletisim .p2 {
+    color: gray;
+    margin-left: -900px;
+    margin-top: -18px;
+}
+
+
+.header .iletisim .p3 {
+    color: crimson;
+    margin-top: -18px;
+    margin-left: -700px;
+}
+
+.content {
+    width: 100%;
+    height: 120vh;
+    background-color: #f5f5f5;
+    margin-top: 340px;
+}
+
+.content h1 {
+    color: #2f323a;
+    margin-left: 12%;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.content p {
+    color: gray;
+    margin-left: 12%;
+    margin-top: 30px;
+}
+
+.content img {
+    margin-top: -180px;
+    margin-left: 800px;
+    margin-bottom: 30px;
+    height: 700px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.content .musteri h4 {
+    margin-top: -450px;
+    margin-left: 300px;
+    font-size: 25px;
+    color: #2f323a;
+}
+
+
+.content .musteri .p4 {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.content .yenilik h4 {
+    margin-top: 60px;
+    margin-left: 300px;
+    font-size: 25px;
+    color: #2f323a;
+}
+
+
+.content .yenilik .p5 {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+
+.content .hizmetler {
+    width: 100%;
+    height: 55vh;
+    background-color: #111111;
+    margin-top: 138px;
+    
+
+}
+
+.content .hizmetler .h1 {
+    color: #f5f5f5;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.content .hizmetler .p6 {
+    color: gray;
+    text-align: center;
+    margin-left: -1096px;
+}
+
+.content .hizmetler .h2 {
+    color: #f5f5f5;
+    font-size: 22px;
+    margin-top: -114px;
+    margin-left: 700px;
+}
+
+.content .hizmetler .p7 {
+    text-align: center;
+    color: gray;
+    margin-left: -18px;
+}
+
+.content .hizmetler .h3 {
+    color: #f5f5f5;
+    font-size: 22px;
+    margin-top: -132px;
+    margin-left: 1200px;
+}
+
+.content .hizmetler .p8 {
+    text-align: center;
+    color: gray;
+    margin-left: 1050px;
+}
+
+.content .tanıtım {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 115vh;
+    margin-top: -20px;
+}
+
+.content .tanıtım .h4 {
+    color: #2f323a;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+
+.content .tanıtım .p9 {
+    color: gray;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.content .tanıtım img {
+    width: auto;
+    height: auto;
+    margin-left: 250px;
+    margin-top: 40px;
+
+}
+
+.footer {
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 1211px;
+    background-color: #111111;
+    display: inline-block;
+}
+
+.footer h1 {
+    color: crimson;
+    margin-left: 700px;
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+.footer p {
+    color: gray;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.footer .insta a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 600px;
+}
+
+.footer .twitter  {
+    margin-left: 700px;
+    margin-top: -28px;
+}
+
+.footer .twitter a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+
+.footer .linkedin {
+    margin-left: 800px;
+    margin-top: -25px;
+}
+
+.footer .linkedin a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+.footer .google {
+    margin-left: 900px;
+    margin-top: -25px;
+}
+
+.footer .google a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+
+}
+
+.footer {
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 1210px;
+    background-color: #111111;
+    display: inline-block;
+}
+
+.footer .box6  {
+    width: 100%;
+    height: 60vh;
+    margin-right: 700px;  
+    margin-top: 100px;  
+    background-color: #1d1919;
+}
+
+.footer .box6 h1 {
+    text-align: left;
+    font-size: 24px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+
+.footer .box6 p {
+    text-align: left;  
+    margin-left: 120px;
+    margin-top: 18px;
+}
+
+.footer .box7 h1 {
+    text-align: left;
+    margin-left:650px;
+    font-size: 24px;
+    margin-top: -340px;
+}
+
+.footer .box7 ul {
+    margin-left: 650px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.footer .box7 ul li a {
+    text-decoration: none;
+    color: gray;
+    transition: .25s ease-in-out;
+}
+
+.footer .box7 ul li a:hover {
+    color: crimson;
+
+}
+
+
+.footer .box8 h1 {
+    text-align: left;
+    margin-left:1150px;
+    font-size: 24px;
+    margin-top: -210px;
+}
+
+.footer .box8 .p1 {
+    text-align: left;
+    margin-left: 1150px;
+    margin-top: 20px;
+    transition: .25s;
+}
+
+.footer .box8 .p1:hover {
+    color: crimson;
+}
+
+.footer .box8 .p2 {
+    text-align: left;
+    margin-left: 1150px;
+    margin-top: 24px;
+    transition: .25s;
+}
+
+.footer .box8 .p2:hover {
+    color: crimson;
+}
+
+.footer .box8 .p3 {
+    text-align: left;
+    margin-left: 1150px;
+    margin-top: 28px;
+    transition: .25s ;
+}
+
+.footer .box8 .p3:hover {
+    color: crimson;
+}
+
+
+.footer .box8 .insta {
+    margin-left: 550px;
+    margin-top: -50px;
+    transition: .25s;
+}
+
+.footer .box8 .insta a:hover {
+    color: crimson;
+}
+
+
+.footer .box8 .twitter {
+    margin-left: 1210px;
+    margin-top: -27px;
+    transition: .25s;
+}
+
+.footer .box8 .twitter a:hover {
+    color: crimson;
+} 
+
+.footer .box8 .linkedin {
+    margin-left: 1280px;
+    margin-top: -27px;
+    transition: .25s;
+}
+
+.footer .box8 .linkedin a:hover {
+    color: crimson;
+}
+
+.footer .box8 .google {
+    margin-left: 1340px;
+    margin-top: -27px;
+    transition: .25s;
+} 
+
+.footer .box8 .google a:hover {
+    color: crimson;
+}
+
+.footer .box9 {
+    width: 100%;
+    height: 15vh;
+    margin-top: 80px;
+    background-color: #111111;
+    display: inline-block;
+}
+
+
+.footer .box9 p {
+    margin-top: 30px;
+
+}
